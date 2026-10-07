@@ -1,0 +1,15 @@
+{
+  "name": "mern-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack developer portfolio with an admin panel (MERN)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed:admin": "npm --prefix server run seed:admin",
+    "test": "npm --prefix server test && npm --prefix client test",
+    "build": "npm --prefix client run build",
+    "contrast": "python3 scripts/contrast.py"
+  }
+}
